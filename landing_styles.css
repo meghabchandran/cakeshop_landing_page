@@ -38,13 +38,16 @@
     border-radius: 2rem;
     backdrop-filter: blur(6px); 
     border: 0.5px solid #f4eaeb;
-    height: 500px;
-    width: 600px;
+    min-height: 100vh;
+    width: 100%;
     margin-top: 3px;
-    /* color: rgb(45, 43, 43); */
     font-family: 'Playfair Display', serif;
     color:beige;
     font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
   }
   .about_style{
     font-family: 'Playfair Display', serif;
